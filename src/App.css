@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  height: 100vh;
+  
+  background: linear-gradient(to right, #F0F8FF, #FFFAF0);
+  font-family: Arial, sans-serif;
+}
+
 .App {
   text-align: center;
 }
