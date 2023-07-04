@@ -2,7 +2,10 @@ body {
   margin: 0;
   height: 100vh;
   
-  background: linear-gradient(to right, #F0F8FF, #FFFAF0);
+  background: url('https://image.tmdb.org/t/p/w1920_and_h427_multi_faces/a9JGBTL8cj0t5lV3Ct33pculEky.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial, sans-serif;
 }
 

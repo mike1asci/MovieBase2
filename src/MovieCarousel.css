@@ -1,0 +1,15 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.movie-card {
+  margin: 10px;
+  max-width: 200px;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.2);
+}

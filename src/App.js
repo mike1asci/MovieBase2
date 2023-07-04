@@ -5,6 +5,7 @@ import MovieSearch from"./MovieSearch"
 import { BrowserRouter as Router, Route, Routes,Link } from 'react-router-dom';
 
 import Favorites from './Favorites';
+import MovieCarousel from './MovieCarousel';
 
 function App() {
   useEffect(()=>{
@@ -31,7 +32,7 @@ function App() {
         <Link to="/search">Search</Link> | 
         <Link to="/favorites">Favorites</Link>
       </nav>
-
+<MovieCarousel></MovieCarousel>
       <Routes>
         <Route path="/search" element={<MovieSearch addFavorite={addFavorite} />} />
         <Route path="/favorites" element={<Favorites favorites={favorites} />} />
