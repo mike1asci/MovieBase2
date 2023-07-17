@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  height: 100vh;
-  
-  background: url('https://image.tmdb.org/t/p/w1920_and_h427_multi_faces/a9JGBTL8cj0t5lV3Ct33pculEky.jpg');
+  min-height: 100vh;
+
+  background: url("https://image.tmdb.org/t/p/w1920_and_h427_multi_faces/a9JGBTL8cj0t5lV3Ct33pculEky.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,4 +46,32 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.white-background {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+  display: flex;
+}
+
+.nav {
+  width: 300px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+nav div {
+  margin-bottom: 10px;
+}
+
+.logo-text {
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #00f,
+    0 0 30px #00f, 0 0 40px #00f;
 }
